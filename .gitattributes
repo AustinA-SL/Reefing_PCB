@@ -1,0 +1,9 @@
+# Keep KiCad files byte-for-byte (no line-ending conversion)
+*.kicad_* -text
+*.kicad_mod -text
+fp-lib-table -text
+sym-lib-table -text
+*.docx binary
+*.xlsx binary
+*.pdf binary
+*.png binary

@@ -1,0 +1,38 @@
+# KiCad backups and local history (KiCad keeps its own git repo in .history)
+*-backups/
+.history/
+*.bak
+*.bck
+*-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+\#auto_saved_files#
+
+# KiCad lock files and per-user state
+~*.lck
+*.lck
+*.kicad_prl
+fp-info-cache
+sym-lib-table.bak
+
+# Generated reports and manufacturing outputs (regenerate from KiCad)
+*.rpt
+*-drc.json
+*-erc.json
+gerbers/
+fab/
+production/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+
+# Original (pre-V2) design stays local only; the repo tracks the V2 board
+/Reefing PCB.kicad_*
+/fp-lib-table
+
+# Project docs stay local
+/docs/
