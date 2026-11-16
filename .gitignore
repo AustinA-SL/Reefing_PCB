@@ -36,3 +36,9 @@ desktop.ini
 
 # Project docs stay local
 /docs/
+
+# V4_U1_layout: keep backups, local history and preview images out of the repo
+V4_U1_layout/*.bak
+V4_U1_layout/Reefing PCB-backups/
+V4_U1_layout/.history/
+V4_U1_layout/*.png
